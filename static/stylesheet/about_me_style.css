@@ -1,0 +1,254 @@
+body {
+    background-color: #abc5c8;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    background: none;
+    text-align: right;
+    border-bottom-color: transparent;
+    margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+    padding-right: 50px;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #696868;
+}
+
+a {
+    color: #696868;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+img, object, video, embed {
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+h2 {
+
+    font-weight: bolder;
+}
+@media screen and (max-width: 436px){
+    .billboard {
+        order: 1;
+        height: 150px;
+        width: 55%;
+        margin: 10px 15px;
+        background-color: transparent;
+    }
+
+    .logo {
+        order: 2;
+        width: 20%;
+        margin: 10px 15px;
+    }
+    .name {
+        font-family: 'Roboto', sans-serif;
+        font-size: 5em;
+        color: #474848;
+    }
+
+    .job-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2em;
+        color: #252227;
+    }
+
+    .me-md {
+        display: none;
+    }
+
+    .me-sm {
+        display: inline;
+        float: left;
+        width: 100%;
+        padding-right: 15px;
+    }
+    .bio{
+        order: 3;
+        width: 100%;
+        flex-wrap: wrap;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.8em;
+        color: #252227;
+        margin: 15px 15px 0px 15px;
+    }
+
+    .experience {
+        order: 5;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.7em;
+        color: #252227;
+        margin: 15px 15px;
+    }
+
+    .education {
+        order: 6;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        color: #252227;
+        margin: 15px 15px;
+    }
+
+}
+
+@media screen and (min-width: 437px) and (max-width: 735px) {
+    .billboard {
+        order: 1;
+        width: 65%;
+        margin: 10px 15px;
+    }
+
+    .logo {
+        order: 2;
+        width: 25%;
+    }
+
+    .name {
+        font-family: 'Roboto', sans-serif;
+        font-size: 5em;
+        color: #474848;
+    }
+
+    .job-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.6em;
+        color: #252227;
+    }
+
+    .me-md {
+        display: none;
+    }
+
+    .me-sm {
+        display: inline;
+        float: left;
+        width: 40%;
+        padding-right: 15px;
+    }
+    .bio{
+        order: 3;
+        width: 100%;
+        flex-wrap: wrap;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.8em;
+        color: #252227;
+        margin: 15px 15px 0px 15px;
+    }
+
+    .experience {
+        order: 5;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.7em;
+        color: #252227;
+        margin: 15px 15px;
+    }
+
+    .education {
+        order: 6;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        color: #252227;
+        margin: 15px 15px;
+    }
+
+}
+
+@media screen and (min-width: 736px) {
+    body {
+        max-width: 1200px;
+        margin: auto;
+     }
+
+    .billboard {
+        order: 2;
+        width: 68%;
+        margin: 10px 10px 10px auto;
+    }
+
+    .logo {
+        order: 1;
+        width: 20%;
+        margin: 15px;
+    }
+
+    .name {
+        font-family: 'Roboto', sans-serif;
+        font-size: 8em;
+        color: #474848;
+        text-align: right;
+    }
+
+    .job-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2em;
+        color: #252227;
+        text-align: right;
+    }
+
+    .me-sm {
+        display: none;
+    }
+
+    .me-md {
+        display: inline;
+        float: left;
+        padding-right: 15px;
+        width: 30%;
+    }
+
+    .bio{
+        order: 3;
+        flex-wrap: wrap;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.8em;
+        color: #252227;
+        margin: 15px 15px 0px 15px;
+    }
+
+    .experience {
+        order: 5;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.7em;
+        color: #252227;
+        margin: 15px 15px;
+    }
+
+    .education {
+        order: 6;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        color: #252227;
+        margin: 15px 15px;
+    }
+}

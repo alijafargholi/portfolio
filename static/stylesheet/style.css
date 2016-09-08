@@ -1,0 +1,532 @@
+body {
+    background-color: #abc5c8;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    background: none;
+    text-align: right;
+    border-bottom-color: transparent;
+    margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+    padding-right: 50px;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #696868;
+}
+
+a {
+    color: #696868;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+img, object, video, embed {
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+@media screen and (max-width: 436px){
+    .billboard {
+        order: 1;
+        height: 150px;
+        width: 55%;
+        margin: 10px 15px;
+        background-color: transparent;
+    }
+
+    .logo {
+        order: 2;
+        width: 20%;
+        margin: 10px 15px;
+    }
+    .name {
+        font-family: 'Roboto', sans-serif;
+        font-size: 5em;
+        color: #474848;
+    }
+
+    .job-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2em;
+        color: #252227;
+    }
+
+    .bio-img {
+        order: 3;
+        width: 100%;
+        margin: 15px 15px;
+    }
+
+    .inspiration {
+        order: 4;
+        width: 100%;
+        margin: 15px 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .quote {
+        font-size: 1.3em;
+        color: #474848;
+        font-style: italic;
+    }
+
+    .quote-name {
+        font-size: smaller;
+        color: #252227;
+        text-align: right;
+    }
+
+    .about-title {
+        order: 5;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.3em;
+        color: #474848;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .bio-info {
+        order: 6;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2em;
+        color: #252227;
+        margin: 15px 15px;
+    }
+
+    .reel-title {
+        order: 7;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.3em;
+        color: #474848;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .reel{
+        order: 8;
+        width: 100%;
+        margin: 15px 15px 20px 15px;
+    }
+
+    .movies-title {
+        order: 9;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.3em;
+        color: #474848;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .movies {
+        order: 10;
+        width: 100%;
+    }
+
+    .movie-info {
+        width: 40%;
+        overflow: auto;
+        margin: 15px 15px;
+    }
+
+    .to-right {
+        float: right;
+    }
+
+    .to-left {
+        float: left;
+    }
+
+    .my-role {
+        font-family: 'Roboto', sans-serif;
+        color: #252227;
+    }
+
+    .web-title {
+        order: 11;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.3em;
+        color: #474848;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .web-app {
+        order: 12;
+        width: 100%;
+        margin: 15px 15px;
+    }
+
+    .web-app-name {
+        margin-top: 25px;
+    }
+
+    .blog-title {
+        order: 13;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.3em;
+        color: #474848;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .blog {
+        order: 14;
+        width: 100%;
+        margin: 15px 15px;
+    }
+
+    .blog-name {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 437px) and (max-width: 735px) {
+    .billboard {
+        order: 1;
+        width: 55%;
+        margin: 10px 15px;
+    }
+
+    .logo {
+        order: 2;
+        width: 25%;
+        margin: 10px 15px;
+    }
+
+    .name {
+        font-family: 'Roboto', sans-serif;
+        font-size: 5em;
+        color: #474848;
+    }
+
+    .job-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.6em;
+        color: #252227;
+    }
+
+    .bio-img {
+        order: 3;
+        width: calc(50% - 30px);
+        margin: 15px 15px;
+    }
+
+    .inspiration {
+        order: 4;
+        width: calc(50% - 30px);
+        margin: 15px 15px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.4em;
+    }
+
+    .quote {
+        font-size: 1.3em;
+        color: #474848;
+        font-style: italic;
+    }
+
+    .quote-name {
+        font-size: smaller;
+        color: #252227;
+        text-align: right;
+    }
+
+    .about-title {
+        order: 5;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.3em;
+        color: #474848;
+        margin: 20px 15px 0px 15px;
+    }
+
+    .bio-info {
+        order: 6;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.8em;
+        color: #252227;
+        margin: 15px 15px;
+    }
+
+    .reel-title {
+        order: 7;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.3em;
+        color: #474848;
+        margin: 20px 15px 0px 15px;
+    }
+
+    .reel{
+        order: 8;
+        width: 100%;
+        margin: 20px 15px 20px 15px;
+    }
+
+    .movies-title {
+        order: 9;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.3em;
+        color: #474848;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .movies {
+        order: 10;
+        display: flex;
+        flex-flow: wrap;
+        width: 100%;
+        margin: 15px 15px 0px 15px;
+    }
+
+    .movie-info {
+        width: 33.3%;
+    }
+
+    .my-role {
+        font-family: 'Roboto', sans-serif;
+        color: #252227;
+    }
+
+    .web-title {
+        order: 11;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.3em;
+        color: #474848;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .web-app {
+        order: 12;
+        width: 100%;
+        margin: 15px 15px;
+    }
+
+    .web-app-info {
+        width: 50%;
+    }
+
+    .web-app-name {
+        margin-top: 25px
+    }
+
+    .blog-title {
+        order: 13;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.3em;
+        color: #474848;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .blog {
+        order: 14;
+        display: flex;
+        flex-flow: wrap;
+        width: 100%;
+        margin: 15px 15px 0px 15px;
+    }
+
+    .blog-info {
+        width: calc(48% - 5px);
+        margin-left: 10px
+    }
+
+    .blog-name {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 736px) {
+    body {
+        max-width: 1200px;
+        margin: auto;
+    }
+    .billboard {
+        order: 2;
+        width: 68%;
+        margin: 10px 10px 10px auto;
+    }
+
+    .logo {
+        order: 1;
+        width: 20%;
+        margin: 15px;
+    }
+
+    .name {
+        font-family: 'Roboto', sans-serif;
+        font-size: 8em;
+        color: #474848;
+        text-align: right;
+    }
+
+    .job-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2em;
+        color: #252227;
+        text-align: right;
+    }
+
+    .bio-img {
+        order: 3;
+        width: calc(50% - 30px);
+        margin: 15px 15px;
+    }
+
+    .inspiration {
+        order: 4;
+        width: calc(50% - 30px);
+        font-family: 'Open Sans', sans-serif;
+        margin: 15px 15px;
+    }
+
+    .quote {
+        font-size: 2.3em;
+        color: #474848;
+        font-style: italic;
+    }
+
+    .quote-name {
+        font-size: smaller;
+        color: #252227;
+        text-align: right;
+        font-size: 1.3em;
+    }
+
+    .about-title {
+        order: 5;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3.5em;
+        color: #474848;
+        margin: 40px 15px 10px 15px;
+    }
+
+    .bio-info {
+        order: 6;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.8em;
+        color: #252227;
+        margin: 15px 15px;
+    }
+
+    .reel-title {
+        order: 7;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3.5em;
+        color: #474848;
+        margin: 40px 15px 10px 15px;
+    }
+
+    .reel{
+        order: 8;
+        width: 100%;
+        margin: 20px 15px 20px 15px;
+    }
+
+    .movies-title {
+        order: 9;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3.5em;
+        color: #474848;
+        margin: 40px 15px 10px 15px;
+    }
+
+    .movies {
+        order: 10;
+        display: flex;
+        flex-flow: wrap;
+        width: 100%;
+        margin: 15px 15px 0px 15px;
+    }
+
+    .movie-info {
+        width: calc((100% / 6) - 5px);
+        padding: 5px;
+    }
+
+    .my-role {
+        font-family: 'Roboto', sans-serif;
+        color: #252227;
+    }
+
+    .web-title {
+        order: 11;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.3em;
+        color: #474848;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .web-app {
+        order: 12;
+        width: 100%;
+        margin: 15px 15px;
+    }
+
+    .web-app-info {
+        width: 50%;
+    }
+
+    .web-app-name {
+        margin-top: 25px;
+    }
+
+    .blog-title {
+        order: 13;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.3em;
+        color: #474848;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .blog {
+        order: 14;
+        display: flex;
+        flex-flow: wrap;
+        width: 100%;
+        margin: 15px 15px 0px 15px;
+    }
+
+    .blog-info {
+        width: calc(30% - 5px);
+        margin-left: 10px;
+    }
+
+    .blog-name {
+        margin-top: 25px;
+    }
+}
