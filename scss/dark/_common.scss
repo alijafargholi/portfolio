@@ -1,0 +1,211 @@
+//
+// about.scss
+//
+//Interests
+.interests-desc {
+    .hobbies {
+        &:before {
+            background: $gray-100 !important;
+        }
+    }
+    &:hover {
+        background: $white !important;
+        box-shadow: $shadow-lg;
+        transform: translateY(-5px);
+    }
+}
+
+//
+// blog.scss
+//
+.blog-post {
+    &:hover {
+        box-shadow: $shadow-lg !important;
+        background: $white;
+    }
+}
+
+//Sidebar
+.sidebar {
+    .widget {
+        .widget-search {
+            form {
+                position: relative;
+            }
+        }
+        .widget-search, .searchform { 
+            input[type="text"] {
+                background: $white;
+            }
+        }
+        .catagories{
+            li {
+                a {
+                    color: $dark;
+                }
+            }
+        }      
+        .post-recent {
+            .post-recent-content {
+                a {
+                    color: $dark;
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+        .tagcloud {
+            > a {
+                background: $light;
+                color: $dark;
+                &:hover {
+                    background: $primary;
+                    color: $dark;
+                }
+            }
+        }
+    }
+}
+
+//
+// contact.scss
+//
+.form-group {
+    .form-control {
+        color: $body-color;
+        background: $white;
+    }
+}
+
+//
+// footer.scss
+//
+.footer {
+    background: $footer;
+    color: $gray-300;
+    .text-foot {
+        color: $gray-300;
+    }
+    .footer-bar,
+    .footer-border {
+        border-top: 1px solid lighten($footer, 5%);
+    }    
+    .border {
+        border-color: lighten($footer, 5%) !important;
+    }
+}
+//
+// home.scss
+//
+.mouse-icon {
+    border: 2px solid $gray-700;
+    box-shadow: $shadow;
+    &.mouse-icon-white {
+        border-color: $dark;
+        .wheel {
+            background: $dark;
+        }
+    }
+    .wheel {
+        background: $gray-700;
+    }
+}
+
+// BOXED HOME
+#sThemes-layout {
+    .sThemesbox {
+        background: $white;
+        box-shadow: $shadow;
+    }
+}
+
+//
+// portfolio.scss
+//
+.portfolioFilter {
+    li {
+        a {
+            &:hover, &.active {
+                color: $dark !important;
+            }
+        }
+    }
+}
+
+.portfolio-box {
+    .portfolio-box-img {
+        .overlay-work {
+            background-color: rgba($dark, 0.65);
+            .work-content {
+                .work-icon {
+                    &:hover {
+                        color: $primary !important;
+                    }
+                }
+                a {
+                    &:hover {
+                        background: $white !important;
+                    }
+                }
+            }
+        }
+    }
+    .gallary-title {
+        background: $light;
+    }
+    &:hover {
+        box-shadow: $shadow-lg !important;
+    }
+}
+
+//
+// resume.scss
+//
+.main-icon {
+    border: 2px solid $gray-400;
+}
+.timeline-page {
+    &:after {
+        background-color: $gray-400 !important;
+    }
+    .timeline-item {
+        .date-label-left, .duration-right {
+            &:after {
+                border: 2px solid $dark;
+                background-color: $gray-100;
+            }
+        }
+        .event {
+            &:hover {
+                box-shadow: $shadow-lg;
+            }
+        }
+    }
+}
+
+//
+// service.scss
+//
+.service-wrapper {
+    &:hover {
+        box-shadow: $shadow-lg;
+        background: $white;
+    }
+}
+
+//
+// switcher.scss
+//
+#style-switcher {
+    background: none repeat scroll 0 0 $white;
+    box-shadow: $shadow;
+    .bottom {
+        background: none repeat scroll 0 0 $white;
+        a {
+            &.settings {
+                background: none repeat scroll 0 0 $white;
+            }
+        }
+    }
+}
